@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 131px;
+}
+
+.header {
+    display: flex;
+    height: 72px;
+    padding: 12px 36px;
+    justify-content: space-between;
+    align-items: center;
+    background: #FBF9FF;
+}
+
+.logo {
+    width: 147px;
+    height: 22px;
+    margin-left: 8px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+ul li {
+    color: #323232;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.header-button {
+    border-radius: 8px;
+    border: 1px solid #6941C6;
+    background: #6941C6;
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 203px;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    padding: 96px;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    background: #F1E8FF;
+    flex-direction: column;
+    max-width: 1444px;
+}
+
+.first-section {
+    display: flex;
+    padding: 0px 32px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.card-section {
+    display: flex;
+    gap: 32px;
+}
+
+.first-section p {
+    font-size: 24px;
+    max-width: 768px;
+}
+
+h2 {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+p {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.cardbutton {
+    display: flex;
+    padding: 4px 12px;
+    align-items: center;
+    border-radius: 9999px;
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+    color: #6941C6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.subcard {
+    border-radius: 16px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    padding: 32px;
+    gap: 12px;
+    align-items: center;
+}
+
+.subcard-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    gap: 12px;
+    align-items: center;
+}
+
+.subcard-section h3 {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.96px;
+}
+
+.subcard-section p {
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.purchasebutton {
+    display: flex;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: #7F56D9;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    width: 310px;
+}
+
+.chatbutton {
+    display: flex;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    color: #414651;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    width: 310px;
+}
+
+.benefits {
+    border-top: 1px solid #E9EAEB;
+    align-items: center;
+    min-width: 310px;
+    padding-top: 16px;
+    margin-top: 22px;
+    gap: 12px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 16px 0px;
+}
+
+.description p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.check {
+    vertical-align: middle;
+}
+
+.second-section {
+    display: flex;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+    border-radius: 24px;
+    background: #FFF;
+}
+
+.second-section > p {
+    font-size: 24px;
+}
+
+.card {
+    display: flex;
+    width: 768px;
+    padding: 32px;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 16px;
+    gap: 24px;
+}
+
+.card > p {
+    max-width: 656px;
+    text-align: left;
+    margin-left: 48px;
+}
+
+.textcards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.gray {
+    background: #E4E4E4;
+}
+
+.red {
+    border: 2px solid #FF2323;
+    background: #FFE5E5;
+}
+
+.purple {
+    background: #E9D7FF;
+}
+
+.white {
+    background: #F7F4FF;
+}
+
+.blue {
+    border: 4px solid #326DFF;
+    background: #DCE6FF;
+}
+
+.pink {
+    background: #FFD5E7;
+}
+
+.darktext {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.cardheader {
+    display: flex;
+    gap: 24px;
+}
+
+.third-section {
+    display: flex;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    border-radius: 24px;
+    background: #FFF;
+    align-items: center;
+}
+
+.profilecards {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    padding: 32px;
+    justify-content: center;
+}
+
+.profcard {
+    display: flex;
+    height: 256px;
+    min-width: 582px;
+    min-height: 256px;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 12px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    gap: 80px;
+}
+
+.profcard > p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Inika;
+    max-width: 486px;
+    text-align: left;
+    max-height: 62px;
+}
+
+.profile {
+    display: flex;
+    gap: 12px;
+}
+
+.prdesc {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+}
+
+.prdesc p {
+    text-align: left;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.name p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+}
